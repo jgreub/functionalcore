@@ -1,8 +1,8 @@
 package com.jgreubel.functionalcore.core.fruit
 
-import org.springframework.stereotype.Component
+import javax.inject.Named
 
-@Component
+@Named
 class FruitService(
     private val fruitSaver: FruitSaver
 ) {
