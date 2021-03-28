@@ -15,7 +15,7 @@ the<DependencyManagementExtension>().apply {
 }
 
 dependencies {
-	implementation(project(":core"))
+	implementation(project(":app:modules:core"))
 
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")

@@ -1,6 +1,6 @@
 rootProject.name = "functionalcore"
 
 include("app")
-include("core")
-include("database")
-include("web")
+include("app:modules:core")
+include("app:modules:database")
+include("app:modules:web")

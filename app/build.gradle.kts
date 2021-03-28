@@ -6,8 +6,8 @@ plugins {
 }
 
 dependencies {
-	implementation(project(":web"))
-	implementation(project(":database"))
+	implementation(project(":app:modules:web"))
+	implementation(project(":app:modules:database"))
 
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
